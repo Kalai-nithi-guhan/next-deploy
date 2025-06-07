@@ -36,7 +36,8 @@ export default function RootLayout({
   );
 }
 
-// app/components/Navigation.tsx
+// ==========================================
+// app/components/Navigation.tsx (separate file)
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -81,7 +82,8 @@ export default function Navigation() {
   );
 }
 
-// app/page.tsx (Home Page)
+// ==========================================
+// app/page.tsx (Home Page - separate file)
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-blue-50">
@@ -176,7 +178,8 @@ export default function Home() {
   );
 }
 
-// app/about/page.tsx
+// ==========================================
+// app/about/page.tsx (separate file)
 export default function About() {
   return (
     <div className="min-h-screen bg-gray-50 py-12">
@@ -232,7 +235,8 @@ export default function About() {
   );
 }
 
-// app/contact/page.tsx
+// ==========================================
+// app/contact/page.tsx (separate file)
 export default function Contact() {
   return (
     <div className="min-h-screen bg-gray-50 py-12">
@@ -334,7 +338,8 @@ export default function Contact() {
   );
 }
 
-// app/analyzer/page.tsx
+// ==========================================
+// app/analyzer/page.tsx (separate file)
 "use client";
 import { useState } from 'react';
 
@@ -515,7 +520,7 @@ export default function Analyzer() {
             >
               🔍 Analyze & Recommend
             </button>
-          </form>
+            </form>
         </div>
       </div>
     </div>
